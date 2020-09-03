@@ -49,7 +49,7 @@ namespace v0903
             }
 
              Point mp = MousePosition;
-            mp = PointToClient(mp);
+             mp = PointToClient(mp);
 
             if (  (mp.X >= label1.Left)
                 &&(mp.X < label1.Right)
