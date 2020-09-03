@@ -38,6 +38,11 @@ namespace v0903
 
         private void timer1_Tick(object sender, EventArgs e)
         {
+            for (int i = 0; i < 100; i++ )
+            {
+                labels[i].Left += vx[i];
+                labels[i].Top  += vy[i];
+            }
             label1.Left += vx[0];
             label1.Top  += vy[0];
             label2.Left += vx[1];
